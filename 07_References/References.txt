@@ -15,8 +15,3 @@ https://protocol-explorer-alpha.vercel.app/
 - IEEE Standards Association: https://standards.ieee.org/
 - Wi-Fi Alliance: https://www.wi-fi.org/
 
-Принцип документирования:
-1. Сначала фиксировать то, что явно отображено на сайте.
-2. Затем сверять нормативные детали по официальной спецификации.
-3. Датировать проверку меняющихся технических сведений.
-4. Не приписывать учебному сценарию точность реального packet capture.
