@@ -1,0 +1,18 @@
+WPA3 — WI-FI PROTECTED ACCESS 3
+Источник: Protocol Explorer, карточка WPA3.
+
+СЦЕНАРИЙ САЙТА
+1. A WPA3 NETWORK — beacon объявляет SAE.
+2. SAE COMMIT — каждая сторона выполняет commit на основе пароля.
+3. SAE CONFIRM — подтверждение без отправки пароля.
+4. JOIN, HANDSHAKE — затем 4-way handshake, как в WPA2.
+5. WHY IT’S SAFER — поддельные отключения становятся сложнее.
+
+ПРИНЦИП РАБОТЫ
+WPA3 — поколение защиты Wi-Fi. В режиме WPA3-Personal используется SAE (Simultaneous Authentication of Equals), также известный как Dragonfly, вместо традиционного PSK-механизма WPA2-Personal. SAE обеспечивает более устойчивую модель к офлайн-перебору пароля и предоставляет forward secrecy при корректной реализации.
+После SAE стороны выполняют 4-way handshake для установки временных ключей, используемых при шифровании последующего трафика.
+WPA3 также усиливает требования к Protected Management Frames (PMF), что помогает защищать управляющие кадры от некоторых типов подделки.
+WPA3-Enterprise — отдельный корпоративный вариант, который использует 802.1X/EAP.
+
+СВЯЗИ
+WPA2, SAE, PMF, RADIUS, 802.1X.
