@@ -1,0 +1,48 @@
+ГЛОССАРИЙ PROTOCOL EXPLORER
+
+ACK — Acknowledgment, подтверждение при передаче.
+ARP — Address Resolution Protocol, сопоставление IPv4-адреса с MAC в локальном сегменте.
+AS — Autonomous System, автономная система маршрутизации.
+BGP — Border Gateway Protocol, обмен маршрутной информацией между автономными системами.
+BYE — SIP-метод завершения сеанса.
+Client — клиент, инициирующая сторона обмена.
+Datagram — независимый блок данных, в частности UDP.
+DNS — Domain Name System, система доменных имён.
+DNSKEY — запись DNS с открытым ключом зоны.
+DoH — DNS over HTTPS.
+DS — Delegation Signer, запись связи доверия DNSSEC.
+DTLS — Datagram Transport Layer Security.
+EAP — Extensible Authentication Protocol.
+ESP — Encapsulating Security Payload, формат данных IPsec.
+FIN — флаг TCP для штатного закрытия потока.
+Handshake — последовательность начальных сообщений согласования параметров/соединения.
+HTTP — протокол передачи ресурсов веба.
+ICMP — Internet Control Message Protocol.
+IKEv2 — Internet Key Exchange version 2.
+IP — Internet Protocol.
+MAC — Media Access Control address, канальный адрес интерфейса.
+MTU — Maximum Transmission Unit, максимальный размер блока для канального интерфейса.
+NAT — Network Address Translation.
+OSI — Open Systems Interconnection, семиуровневая модель.
+Packet — пакет сетевого уровня.
+PLC — Programmable Logic Controller, промышленный контроллер.
+PPPoE — Point-to-Point Protocol over Ethernet.
+RADIUS — Remote Authentication Dial-In User Service.
+RFC — Request for Comments, серия технических документов.
+RTP — Real-time Transport Protocol.
+RTSP — Real Time Streaming Protocol.
+SAE — Simultaneous Authentication of Equals, механизм аутентификации WPA3-Personal.
+SDP — Session Description Protocol.
+Segment — единица данных транспортного уровня TCP.
+SIP — Session Initiation Protocol.
+SMB — Server Message Block.
+SMTP — Simple Mail Transfer Protocol.
+SOCKS — прокси-протокол для пересылки сетевых соединений.
+SSH — Secure Shell.
+STUN — Session Traversal Utilities for NAT.
+SYN — флаг TCP для установления соединения.
+TCP — Transmission Control Protocol.
+TLS — Transport Layer Security.
+UDP — User Datagram Protocol.
+VPN — Virtual Private Network.
+WebRTC — Web Real-Time Communication.
