@@ -8,53 +8,56 @@
 - Application: 19
 - Security: 9
 
-CORE — 11 ПРОТОКОЛОВ
-1. HTTP — Hypertext Transfer Protocol
-2. HTTPS — HTTP Secure
-3. WebSocket — Two-way web messaging
-4. WebRTC — Browser video calls
-5. SIP — Internet phone calls
-6. RTSP — IP camera streams
-7. RTMP — Live streaming upload
-8. QUIC — HTTP/3 over UDP
-9. TCP — Transmission Control Protocol
-10. UDP — User Datagram Protocol
-11. IP — Internet Protocol
+ПРИМЕЧАНИЕ О КЛАССИФИКАЦИИ
+Сайт явно показывает счётчики групп и полный список из 39 карточек. В текстовом представлении, доступном для проверки, не для каждой карточки была явно видна отметка выбранного фильтра. Ниже приведено распределение документов по папкам этого репозитория для удобства изучения; это редакционная классификация, а не утверждение о внутренней реализации фильтров сайта. В общей сложности созданы отдельные конспекты по всем 39 карточкам.
 
-APPLICATION — 19 ПРОТОКОЛОВ
-1. BGP — Routing between networks
-2. IPv6 — Address setup, neighbour discovery
-3. DNS — Domain Name System
-4. DNS over HTTPS — Private DNS lookups
-5. DNSSEC — Signed DNS answers
-6. DHCP — Dynamic Host Configuration
-7. ICMP — Internet Control Message
-8. IGMP — Multicast and TV channels
-9. NTP — Network Time Protocol
-10. Ethernet — Frames and switches
-11. PPPoE — Broadband logins
-12. Wi-Fi (WPA2) — Joining a network
-13. SMTP — Simple Mail Transfer Protocol
-14. POP3 — Post Office Protocol v3
-15. IMAP — Internet Message Access
-16. FTP — File Transfer Protocol
-17. SMB — Windows file sharing
-18. SSH — Secure Shell
-19. Modbus — Industrial control (OT)
+ПАПКА 01 — CORE PROTOCOLS (11 ДОКУМЕНТОВ)
+1. HTTP — Hypertext Transfer Protocol — 01_Core_Protocols/HTTP.txt
+2. HTTPS — HTTP Secure — 01_Core_Protocols/HTTPS.txt
+3. WebSocket — Two-way web messaging — 01_Core_Protocols/WebSocket.txt
+4. WebRTC — Browser video calls — 01_Core_Protocols/WebRTC.txt
+5. SIP — Internet phone calls — 01_Core_Protocols/SIP.txt
+6. RTSP — IP camera streams — 01_Core_Protocols/RTSP.txt
+7. RTMP — Live streaming upload — 01_Core_Protocols/RTMP.txt
+8. QUIC — HTTP/3 over UDP — 01_Core_Protocols/QUIC.txt
+9. TCP — Transmission Control Protocol — 01_Core_Protocols/TCP.txt
+10. UDP — User Datagram Protocol — 01_Core_Protocols/UDP.txt
+11. IP — Internet Protocol — 01_Core_Protocols/IP.txt
 
-SECURITY — 9 ПРОТОКОЛОВ / ТЕХНОЛОГИЙ
-1. TLS/SSL — Transport Layer Security
-2. WPA3 — Wi-Fi Protected Access 3
-3. RADIUS / 802.1X — Enterprise Wi-Fi
-4. Captive Portal — Hotel and café Wi-Fi logins
-5. HTTP Proxy — Forward proxy and CONNECT
-6. SOCKS5 — Socket Secure proxy
-7. Reverse Proxy — TLS offloading
-8. WireGuard — A modern VPN
-9. IPsec — IKEv2 and ESP
+ПАПКА 02 — APPLICATION PROTOCOLS (19 ДОКУМЕНТОВ)
+1. BGP — Routing between networks — 02_Application_Protocols/BGP.txt
+2. IPv6 — Address setup, neighbour discovery — 02_Application_Protocols/IPv6.txt
+3. DNS — Domain Name System — 02_Application_Protocols/DNS.txt
+4. DNS over HTTPS — Private DNS lookups — 02_Application_Protocols/DoH.txt
+5. DNSSEC — Signed DNS answers — 02_Application_Protocols/DNSSEC.txt
+6. DHCP — Dynamic Host Configuration — 02_Application_Protocols/DHCP.txt
+7. ICMP — Internet Control Message — 02_Application_Protocols/ICMP.txt
+8. IGMP — Multicast and TV channels — 02_Application_Protocols/IGMP.txt
+9. NTP — Network Time Protocol — 02_Application_Protocols/NTP.txt
+10. Ethernet — Frames and switches — 02_Application_Protocols/Ethernet.txt
+11. PPPoE — Broadband logins — 02_Application_Protocols/PPPoE.txt
+12. Wi-Fi (WPA2) — Joining a network — 02_Application_Protocols/WPA2_WiFi.txt
+13. SMTP — Simple Mail Transfer Protocol — 02_Application_Protocols/SMTP.txt
+14. POP3 — Post Office Protocol v3 — 02_Application_Protocols/POP3.txt
+15. IMAP — Internet Message Access — 02_Application_Protocols/IMAP.txt
+16. FTP — File Transfer Protocol — 02_Application_Protocols/FTP.txt
+17. SMB — Windows file sharing — 02_Application_Protocols/SMB.txt
+18. SSH — Secure Shell — 02_Application_Protocols/SSH.txt
+19. Modbus — Industrial control (OT) — 02_Application_Protocols/Modbus.txt
+
+ПАПКА 03 — SECURITY PROTOCOLS (9 ДОКУМЕНТОВ)
+1. TLS/SSL — Transport Layer Security — 03_Security_Protocols/TLS_SSL.txt
+2. WPA3 — Wi-Fi Protected Access 3 — 03_Security_Protocols/WPA3.txt
+3. RADIUS / 802.1X — Enterprise Wi-Fi — 03_Security_Protocols/RADIUS_8021X.txt
+4. Captive Portal — Hotel and café Wi-Fi logins — 03_Security_Protocols/Captive_Portal.txt
+5. HTTP Proxy — Forward proxy and CONNECT — 03_Security_Protocols/HTTP_Proxy.txt
+6. SOCKS5 — Socket Secure proxy — 03_Security_Protocols/SOCKS5.txt
+7. Reverse Proxy — TLS offloading — 03_Security_Protocols/Reverse_Proxy.txt
+8. WireGuard — A modern VPN — 03_Security_Protocols/WireGuard.txt
+9. IPsec — IKEv2 and ESP — 03_Security_Protocols/IPsec_IKEv2_ESP.txt
 
 КРАТКИЕ ШАГИ КАРТОЧЕК
-В каждом отдельном файле протокола сохранены названия и краткие описания шагов, доступные в текстовом представлении карточки. Они позволяют восстановить учебный сценарий, но не заменяют динамическую визуализацию.
+В каждом файле протокола сохранены названия и краткие описания шагов, доступные в текстовом представлении карточки. Они позволяют восстановить учебный сценарий, но не заменяют динамическую визуализацию.
 
 ПРИМЕЧАНИЕ
-Счётчики категорий и названия карточек относятся к конкретной версии сайта, зафиксированной 26.11.2026. Категории приведены по структуре интерфейса сайта. Дополнительные технические объяснения в конспектах вынесены отдельно от шагов карточек.
+Числа и названия категорий относятся к версии сайта, зафиксированной 26.11.2026. Редакционная классификация папок выбрана для удобства поиска и согласована со счётчиками сайта, но не должна интерпретироваться как доказанная внутренняя таксономия приложения.
