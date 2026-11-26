@@ -6,7 +6,7 @@ SMB — SERVER MESSAGE BLOCK
 2. NEGOTIATE — согласование версии SMB.
 3. NTLM CHALLENGE — NAS отправляет случайное значение.
 4. NTLM RESPONSE — клиент отправляет доказательство, а не пароль.
-5. CONNECT A SHARE — пример \nas\Documents.
+5. CONNECT A SHARE — пример \\nas\Documents.
 6. OPEN THE FILE — команда CREATE.
 7. READ IT — чтение файла.
 8. CLOSE THE FILE — закрытие; сайт советует держать порт 445 внутри домашней сети.
