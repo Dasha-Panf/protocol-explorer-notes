@@ -1,2 +1,52 @@
-# protocol-explorer-notes
-Structured knowledge base and detailed study notes based on Protocol Explorer. Network protocols, architecture, security, packet analysis, and practical examples.
+# Protocol Explorer — structured study notes
+
+Подробная база знаний по интерактивному каталогу [Protocol Explorer](https://protocol-explorer-alpha.vercel.app/). Репозиторий организован по трём категориям, которые показаны на сайте: Core (11), Application (19), Security (9).
+
+## Навигация по репозиторию
+
+| Папка | Содержание |
+|---|---|
+| `00_About/` | Описание сайта и карта его каталога |
+| `01_Core_Protocols/` | 11 основных протоколов обмена и транспорта |
+| `02_Application_Protocols/` | 19 прикладных и сетевых протоколов сайта |
+| `03_Security_Protocols/` | 9 протоколов и технологий безопасности |
+| `04_Network_Fundamentals/` | Базовые понятия: OSI, инкапсуляция, IP-адресация и порты |
+| `05_Packet_Analysis/` | Объяснение packet trace и примера HTTP-трассировки |
+| `06_Glossary/` | Словарь терминов и сокращений |
+| `07_References/` | Первичный сайт и ссылки на нормативные источники |
+
+## Категории сайта
+
+### Core — 11
+HTTP, HTTPS, WebSocket, WebRTC, SIP, RTSP, RTMP, QUIC, TCP, UDP, IP.
+
+### Application — 19
+BGP, IPv6, DNS, DNS over HTTPS (DoH), DNSSEC, DHCP, ICMP, IGMP, NTP, Ethernet, PPPoE, Wi-Fi (WPA2), SMTP, POP3, IMAP, FTP, SMB, SSH, Modbus.
+
+### Security — 9
+WPA3, RADIUS / 802.1X, Captive Portal, TLS/SSL, HTTP Proxy, SOCKS5, Reverse Proxy, WireGuard, IPsec.
+
+## Формат отдельных файлов
+
+Файлы протоколов в формате `.txt` включают:
+- сценарий и названия шагов так, как они отображаются на сайте;
+- назначение и принцип работы;
+- уровни/транспорт/порты там, где данные подтверждены;
+- пояснение терминов и последовательности обмена;
+- ограничения и вопросы безопасности;
+- связи с другими протоколами.
+
+Маркировка «СЦЕНАРИЙ САЙТА» фиксирует содержание карточки. Раздел «ПРИНЦИП РАБОТЫ» или «ПОЯСНЕНИЕ» содержит дополнительное объяснение для понимания, а не цитату сайта.
+
+## Важное замечание о полноте источника
+
+Сайт интерактивный. По доступной текстовой версии удалось сверить заголовок, счётчики категорий, все 39 названий и краткие последовательности шагов. Для HTTP дополнительно доступен полный Overview и пример packet trace (DNS → TCP handshake → HTTP GET → 200 OK). Динамические подробные панели остальных карточек и их полные packet trace не были целиком доступны в текстовом представлении. Поэтому в таких файлах отсутствующие значения не выдумываются; поясняющий материал отделён от данных карточки.
+
+## Источник
+
+- Protocol Explorer: https://protocol-explorer-alpha.vercel.app/
+- Дата проверки доступного содержимого: 26 ноября 2026 г.
+
+## Как продолжать изучение
+
+Начни с `04_Network_Fundamentals/Network_Basics.txt`, затем пройди Core, Application и Security. После этого открой `05_Packet_Analysis/Reading_Packet_Trace.txt` и попробуй сопоставить каждый шаг карточки с источником, назначением, протоколом и размером строки в трассировке.
