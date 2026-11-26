@@ -1,0 +1,50 @@
+КАРТА КАТАЛОГА PROTOCOL EXPLORER
+Источник: публичный текстовый снимок сайта.
+
+Категории, показанные в интерфейсе:
+- All: 39
+- Core: 11
+- Application: 19
+- Security: 9
+
+ВАЖНО: суммы счётчиков и названия карточек не во всех случаях позволяют однозначно восстановить распределение категорий. Ниже приведён полный перечень карточек, присутствующих в текстовом снимке, без выдуманного назначения категории для каждой из них.
+
+1. HTTP — Hypertext Transfer Protocol
+2. HTTPS — HTTP Secure
+3. WebSocket — Two-way web messaging
+4. WebRTC — Browser video calls
+5. SIP — Internet phone calls
+6. RTSP — IP camera streams
+7. RTMP — Live streaming upload
+8. QUIC — HTTP/3 over UDP
+9. TCP — Transmission Control Protocol
+10. UDP — User Datagram Protocol
+11. IP — Internet Protocol
+12. BGP — Routing between networks
+13. IPv6 — Address setup, neighbour discovery
+14. DNS — Domain Name System
+15. DNS over HTTPS — Private DNS lookups
+16. DNSSEC — Signed DNS answers
+17. DHCP — Dynamic Host Configuration
+18. ICMP — Internet Control Message
+19. IGMP — Multicast and TV channels
+20. NTP — Network Time Protocol
+21. Ethernet — Frames and switches
+22. PPPoE — Broadband logins
+23. Wi-Fi (WPA2) — Joining a network
+24. WPA3 — Wi-Fi Protected Access 3
+25. RADIUS / 802.1X — Enterprise Wi-Fi
+26. Captive Portal — Hotel and café Wi-Fi logins
+27. SMTP — Simple Mail Transfer Protocol
+28. POP3 — Post Office Protocol v3
+29. IMAP — Internet Message Access
+30. FTP — File Transfer Protocol
+31. SMB — Windows file sharing
+32. SSH — Secure Shell
+33. TLS/SSL — Transport Layer Security
+34. HTTP Proxy — Forward proxy and CONNECT
+35. SOCKS5 — Socket Secure proxy
+36. Reverse Proxy — TLS offloading
+37. WireGuard — A modern VPN
+38. IPsec — IKEv2 and ESP
+39. Modbus — Industrial control (OT)
