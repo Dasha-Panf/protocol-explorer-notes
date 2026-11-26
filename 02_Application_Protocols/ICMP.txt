@@ -1,0 +1,19 @@
+ICMP — INTERNET CONTROL MESSAGE PROTOCOL
+Источник: Protocol Explorer, карточка ICMP.
+
+ПО САЙТУ
+Сценарий:
+1. Ping — Echo Request.
+2. Echo Reply — измерение round-trip time.
+3. TTL 1 — отвечает первый маршрутизатор.
+4. TTL 2 — отвечает следующий маршрутизатор.
+5. That’s traceroute — TTL увеличивается 1, 2, 3… пока пакет не дойдёт.
+6. Unreachable — пример недоступного порта/назначения.
+
+ПОЯСНЕНИЕ
+ICMP для IPv4 передаёт управляющие и диагностические сообщения, включая Echo Request/Reply, Destination Unreachable и Time Exceeded. ICMP не является транспортом прикладных пользовательских данных как TCP или UDP.
+Ping обычно измеряет время между отправкой Echo Request и получением Echo Reply. Traceroute использует ограничение TTL (в IPv6 — Hop Limit), чтобы получить сообщения от промежуточных маршрутизаторов.
+Не все устройства отвечают на ICMP, поэтому отсутствие ответа на ping само по себе не доказывает, что узел выключен или сервис недоступен.
+
+СВЯЗАННЫЕ ТЕМЫ
+IP, IPv6, TTL, traceroute, UDP.
